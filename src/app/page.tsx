@@ -18,7 +18,7 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Passionate about building intelligent systems that solve real-world problems 
-              through cutting-edge machine learning and artificial intelligence.
+              through cutting-edge deep learning and artificial intelligence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
@@ -53,7 +53,7 @@ export default function Home() {
             {featuredTechnologies.map((tech, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 text-center hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                className="bg-gray-50 rounded-lg p-4 text-gray-400 text-center hover:bg-blue-50 hover:text-blue-600 transition-colors"
               >
                 <span className="font-semibold">{tech}</span>
               </div>

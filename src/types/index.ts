@@ -7,7 +7,7 @@ export interface Project {
   github?: string;
   demo?: string;
   image?: string;
-  category: 'Deep Learning' | 'AI Engineering' | 'Machine Learning' | 'Computer Vision' | 'NLP';
+  category: 'Deep Learning' | 'AI Engineering' | 'Machine Learning' | 'NLP' | 'RAG';
   featured: boolean;
 }
 
